@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  scroll-behavior: smooth;
 }
 h1,h2,h3,h4,h5,h6{
   font-family:  cursive;
@@ -17,7 +18,7 @@ p{
   height: 100vh;
   width: 100vw;
 }
-.header nav{
+.desktop-nav{
   display: flex;
   z-index: 100;
   position: fixed;
@@ -27,21 +28,24 @@ p{
   width: 100%;
   gap: 40px;
 }
+.mobile-nav{
+  display: none;
+}
 .window-scroll{
   background: rgb(0, 0, 0);
   box-shadow: 0 1rem 2rem hsla(0, 0%, 0%, 0.2);
 }
-.header nav hr{
+.header .desktop-nav hr{
   width: 70px;
 }
-.header nav a{
+.header .desktop-nav a{
   color: #fff;
   font-size: 15px;
   transition: 0.5s;
   font-family: 'Dancing Script', cursive;
   font-weight: 700;
 }
-.header nav a:hover{
+.header .desktop-nav a:hover{
   text-decoration: underline
 }
 .header .home{
@@ -331,3 +335,138 @@ footer .footer-wrapper ul .footer-link:hover{
   color: #fff;
   text-decoration: underline;
 }
+
+/*******************MEDIA QUIRES*************************************/
+@media(width <= 375px) {
+  .desktop-nav{
+    display: none;
+  }
+  .mobile-nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    transition:  0.5s;
+    width: 100%;
+  }
+  .nav-container{
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    align-items: center;
+    gap: 15px;
+    transition: ease-in 0.5s;
+    padding: 50px;
+  }
+  .header nav .nav-container a {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+  }
+  .hamburger{
+    display: inline-block;
+    width: 40px;
+    cursor: pointer;
+  }
+  .close-btn{
+    display: inline-flex;
+    width: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .header{
+    width: auto;
+  }
+  .header nav{
+    padding: 25px 0 15px 0;
+  }
+  .header .home{
+    grid-template-columns: 1fr;
+    width: 80%;
+    padding-top: 80px;
+  }
+  .header .home .left h2{
+    text-align: center;
+    font-size: 45px;
+  }
+  .header .home .left p{
+    text-align: center;
+  }
+  .header .home .right img{
+    width: 100%;
+    display: none;
+  }
+  .header .home .left .home-btn{
+    justify-content: center;
+    gap: 15px;
+  }
+  .about-container div{
+    grid-template-columns: 1fr;
+    width: 80%;
+  }
+  .about-container div .about{
+    width: 100%;
+  }
+  .tokenomics .toke-container{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .tokenomics .toke-container .toke {
+    margin-bottom: 10px;
+  }
+  .buy h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .buy .step-container{
+    grid-template-columns: 1fr;
+    width: 80%;
+  }
+  .buy .step-container .steps .step{
+    width: 100%;
+  }
+  .join-us .join-container .images-cascade{
+    grid-template-columns: 1fr;
+  }
+  .join-us .join-container .images-cascade .left, .join-us .join-container .images-cascade .right{
+    height: 250px;
+    width: auto;
+    margin: 0 auto;
+  }
+  .cascade1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cascade2{
+    display: none;
+  }
+  .join-us .join-container .btn-container {
+    width: 90%;
+  }
+  .join-us .join-container .btn-container button {
+    font-size: 13px;
+  }
+  footer .footer-wrapper{
+    grid-template-columns: 1fr;
+    width: 90%;
+    gap: 15px;
+  }
+  footer .footer-wrapper ul, footer .footer-wrapper div{
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (376px <= width <= 540px){
+  
+}
+
+@media (541px <= width <= 768px) {
+}
+
+@media (769px <= width <= 1024px) {
+}
+
