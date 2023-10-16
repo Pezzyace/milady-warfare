@@ -37,3 +37,11 @@ closeBtn.addEventListener("click", () => {
 navContainer.addEventListener("click", () => {
   navContainer.style.display = "none";
 })
+
+
+window.addEventListener('load', () => {
+  const audio = document.getElementById('myAudio');
+  setInterval(()=>{
+      audio.muted = false;
+  }, 3000)
+})
