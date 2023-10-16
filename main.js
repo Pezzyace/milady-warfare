@@ -45,3 +45,15 @@ window.addEventListener('load', () => {
       audio.muted = false;
   }, 3000)
 })
+
+window.addEventListener('DOMContentLoaded', (event) => {
+  const modal = document.getElementById('myModal');
+  const closeModal = document.getElementById('closeModal');
+
+  modal.style.display = 'block';
+
+  closeModal.addEventListener('click', () => {
+      modal.style.display = 'none';
+  });
+
+});
