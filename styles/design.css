@@ -105,7 +105,7 @@ p{
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  animation: shake 0.01s infinite alternate;
+  animation: shake 0.5s infinite alternate;
 }
 
 @keyframes shake {
@@ -113,7 +113,7 @@ p{
     transform: translateX(0);
   }
   100% {
-    transform: translateX(30px); 
+    transform: translateX(10px); 
   }
 }
 .desktop-nav{
@@ -155,14 +155,18 @@ p{
   padding-top: 100px;
   align-items: center;
 }
+.header .home .left{
+  position: relative;
+  z-index: 30;
+}
 .header .home .left h2{
   font-size: 40px;
   text-transform: uppercase;
-  color: #fff;
+  color: hsl(0, 0%, 0%);
   margin-bottom: 20px;
 }
 .header .home .left p{
-  color: #fff;
+  color: hsl(0, 0%, 0%);
   font-size: 18px;
   margin-bottom: 10px;
   animation: changeSize 0.01s infinite alternate;
@@ -205,7 +209,7 @@ p{
 }
 .header .home .left .home-btn button:hover{
   background-color: pink;
-  color: #fff;
+  color: hsl(0, 0%, 0%);
 }
 .header .home .right img{
   width: 400px;
@@ -238,7 +242,7 @@ p{
     transform: scale(1); 
   }
   100% {
-    transform: scale(1.5); 
+    transform: scale(1.1); 
   }
 }
 .about-container h2{
@@ -281,7 +285,7 @@ p{
 }
 
 .about-container div .about p{
-  color: #fff;
+  color: hsl(0, 0%, 0%);
   text-align: center;
   width: 80%;
   font-size: 15px;
@@ -524,6 +528,7 @@ footer .footer-wrapper ul .footer-link:hover{
     justify-content: center;
     transition:  0.5s;
     width: 100%;
+    z-index: 100;
   }
   .nav-container{
     display: none;
@@ -636,6 +641,7 @@ footer .footer-wrapper ul .footer-link:hover{
     justify-content: center;
     transition:  0.5s;
     width: 100%;
+    z-index: 100;
   }
   .nav-container{
     display: none;
