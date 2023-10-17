@@ -169,12 +169,13 @@ p{
   font-family: 'Rowdies', sans-serif;
 }
 .header .home .left p{
-  color: hsl(0, 0%, 0%);
-  font-size: 18px;
+  color: pink;
+  font-size: 22px;
   margin-bottom: 10px;
   animation: changeSize 0.01s infinite alternate;
   transform: rotate(45deg);
   text-transform: uppercase;
+  font-family: cursive;
 }
 
 @keyframes changeSize {
