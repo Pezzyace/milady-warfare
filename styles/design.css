@@ -169,8 +169,9 @@ p{
   font-family: 'Rowdies', sans-serif;
 }
 .header .home .left p{
-  color: green;
-  font-size: 22px;
+  color: rgb(0, 247, 255);
+  font-size: 25px;
+  font-weight: bold;
   margin-bottom: 10px;
   animation: changeSize 0.01s infinite alternate;
   transform: rotate(45deg);
