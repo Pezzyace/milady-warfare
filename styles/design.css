@@ -169,7 +169,7 @@ p{
   font-family: 'Rowdies', sans-serif;
 }
 .header .home .left p{
-  color: pink;
+  color: blue;
   font-size: 22px;
   margin-bottom: 10px;
   animation: changeSize 0.01s infinite alternate;
