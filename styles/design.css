@@ -170,7 +170,7 @@ p{
 }
 .header .home .left p{
   color: #c13b3b;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
   animation: changeSize 0.01s infinite alternate;
