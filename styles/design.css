@@ -169,7 +169,7 @@ p{
   font-family: 'Rowdies', sans-serif;
 }
 .header .home .left p{
-  color: #fff;
+  color: #c13b3b;
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -328,7 +328,7 @@ p{
   font-size: 45px;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: #000000;
   margin-bottom: 60px;
 }
 .tokenomics .toke-container{
@@ -353,12 +353,12 @@ p{
   padding: 10px 30px;
   border-bottom: 2px solid ;
   margin-bottom: 10px;
-  color: #fff;
+  color: #000000;
 }
 .tokenomics .toke-container .toke p{
   font-weight: 700;
   font-size: 20px;
-  color: #fff;
+  color: #000000;
 }
 
 /*******************************************JOIN US*************************/
