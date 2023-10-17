@@ -164,7 +164,7 @@ p{
 .header .home .left h2{
   font-size: 40px;
   text-transform: uppercase;
-  color: hsl(0, 0%, 0%);
+  color: #c13b3b;
   margin-bottom: 20px;
   font-family: 'Rowdies', sans-serif;
 }
@@ -176,7 +176,7 @@ p{
   animation: changeSize 0.01s infinite alternate;
   transform: rotate(45deg);
   text-transform: uppercase;
-  font-family: cursive;
+  font-family: 'Rowdies', sans-serif;
 }
 
 @keyframes changeSize {
