@@ -164,9 +164,10 @@ p{
   text-transform: uppercase;
   color: hsl(0, 0%, 0%);
   margin-bottom: 20px;
+  font-family: 'Rowdies', sans-serif;
 }
 .header .home .left p{
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
   font-size: 18px;
   margin-bottom: 10px;
   animation: changeSize 0.01s infinite alternate;
@@ -542,7 +543,7 @@ footer .footer-wrapper .social-btns a button img{
     display: none;
   }
   .mobile-nav{
-    display: flex;
+    display: none;
     position: fixed;
     align-items: center;
     justify-content: center;
@@ -569,7 +570,7 @@ footer .footer-wrapper .social-btns a button img{
     font-family: 'Dancing Script', cursive;
   }
   .hamburger{
-    display: inline-block;
+    display: none;
     width: 40px;
     cursor: pointer;
   }
