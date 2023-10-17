@@ -170,7 +170,7 @@ p{
 }
 .header .home .left p{
   color: #c13b3b;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 10px;
   animation: changeSize 0.01s infinite alternate;
@@ -255,7 +255,7 @@ p{
   font-size: 45px;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: hsl(0, 0%, 0%);
   margin-bottom: 30px;
 }
 .about-container div{
