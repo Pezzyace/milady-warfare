@@ -363,6 +363,8 @@ p{
 .contract, .address{
   text-align: center;
   font-size: 30px;
+  line-break: auto;
+  color: white;
 }
 .address{
   margin-bottom: 50px;
@@ -631,6 +633,9 @@ footer .footer-wrapper .social-btns a button img{
   .tokenomics .toke-container .toke {
     margin-bottom: 10px;
   }
+  .contract, .address{
+    font-size: 15px;
+  }
   .join-us .join-container .images-cascade{
     grid-template-columns: 1fr;
   }
@@ -732,6 +737,9 @@ footer .footer-wrapper .social-btns a button img{
   .about-container div{
     grid-template-columns: 1fr;
     width: 85%;
+  }
+  .contract, .address{
+    font-size: 20px;
   }
   .join-us .join-container .images-cascade{
     grid-template-columns: 1fr;
